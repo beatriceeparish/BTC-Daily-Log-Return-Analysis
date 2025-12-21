@@ -8,6 +8,7 @@ Technologies
 - Matplotlib - data visualisation
 
 Overview
+
 The script performs the following:
 - Reads and cleans historical BTC daily prices from a CSV file.
 - Converts date strings to datetime objects and sorts the data.
