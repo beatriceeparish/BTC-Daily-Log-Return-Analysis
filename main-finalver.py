@@ -70,7 +70,7 @@ def main():
     ax3.plot(df["date"], df["rolling_vol_30d"], linewidth=1)
     ax3.set_xlabel("Date")
     ax3.set_ylabel("Volatility")
-    ax3.set_title("30-Day Annualized BTC Volatility")
+    ax3.set_title("30-Day Annualised BTC Volatility")
     plt.show(block=False)
 
     input("Press Enter to close all plots...")
@@ -86,4 +86,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
