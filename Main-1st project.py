@@ -3,7 +3,6 @@ BTC Daily Log Return Analysis
 
 This script analyzes Bitcoin daily prices, calculates log returns,
 volatility measures, and autocorrelations, and visualizes them.
-Useful as an introductory crypto quantitative project.
 """
 
 import numpy as np
@@ -88,3 +87,4 @@ for lag in range(1, 21):
 print("\nAutocorrelation of absolute returns:")
 for lag in range(1, 21):
     print(f"Lag {lag}: {df['abs_return'].autocorr(lag):.4f}")
+
