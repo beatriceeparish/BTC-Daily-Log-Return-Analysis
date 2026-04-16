@@ -1,8 +1,8 @@
-# BTC-Daily-Log-Return-Analysis
-This project analyzes Bitcoin (BTC) daily price data using Python, providing an introduction to crypto quantitative analysis. It demonstrates basic financial computations, statistical analysis, and visualizations using pandas, numpy, and matplotlib.
+# BTC-Daily-Log-Return-Analysis 
+## This project analyzes Bitcoin (BTC) daily price data using Python, providing an introduction to crypto quantitative analysis. It demonstrates basic financial computations, statistical analysis, and visualizations using pandas, numpy, and matplotlib.
 
-Technologies
-- Python 3.x
+## 🧰 Tech Stack
+- Python 3.13
 - Pandas - data manipulation
 - NumPy - numerical operations
 - Matplotlib - data visualisation
@@ -20,11 +20,20 @@ The script performs the following:
 - Performs basic statistical analysis:
   - Mean, standard deviation, skewness, kurtosis of log returns
 - Visualizes:
-  - 1. Scatter plot of log return vs lag-1 log return
-  - 2. Squared returns over time to show volatility clustering
-  - 3. 30-day annualized rolling volatility
+  - Scatter plot of log return vs lag-1 log return
+  - Squared returns over time to show volatility clustering
+  - 30-day annualized rolling volatility
 - Calculates and prints autocorrelations of squared and absolute returns for multiple lags.
 
 - Features for future improvements
   - Comapre BTC volatility with other cryptocurrencies
   - Add moving averages/more advanced technical indicators
+ 
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+## 📄 License
+
+MIT License  
+See `LICENSE` file for details.
